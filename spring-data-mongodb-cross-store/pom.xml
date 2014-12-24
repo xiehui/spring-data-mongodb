@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.data</groupId>
 		<artifactId>spring-data-mongodb-parent</artifactId>
-		<version>1.7.0.BUILD-SNAPSHOT</version>
+		<version>1.7.0.DATAMONGO-1127-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -48,7 +48,11 @@
 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-mongodb</artifactId>
+<<<<<<< HEAD
 			<version>1.7.0.BUILD-SNAPSHOT</version>
+=======
+			<version>1.7.0.DATAMONGO-1127-SNAPSHOT</version>
+>>>>>>> 7c20495... DATAMONGO-1127 - Add support for geoNear queries with distance information.
 		</dependency>
 
 		<dependency>
